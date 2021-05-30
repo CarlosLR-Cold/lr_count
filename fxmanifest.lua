@@ -6,7 +6,7 @@ description 'CarlosLR-Count'
 
 author 'CarlosLR'
 
-version '5.0'
+version '1.0'
 
 client_scripts {
 	'config.lua',
