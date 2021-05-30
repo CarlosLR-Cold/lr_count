@@ -1,22 +1,20 @@
 fx_version 'adamant'
-
 game 'gta5'
 
-description 'CarlosLR-Count'
-
 author 'CarlosLR'
-
+description 'CarlosLR-Count'
 version '1.0'
 
+shared_scripts {
+	'config.lua'
+}
+
 client_scripts {
-	'config.lua',
-	'client/classes/BaseController.lua',
-	'client/main.lua'
+	'client/**/BaseController.lua',
+	'client/*.lua'
 }
+
 server_scripts {
-	'config.lua',
-	'server/classes/BaseController.lua',
-	'server/main.lua'
+	'server/**/BaseController.lua',
+	'server/*.lua'
 }
-
-
